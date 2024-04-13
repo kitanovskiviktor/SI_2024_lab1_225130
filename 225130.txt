@@ -1,0 +1,33 @@
+4. git init - иницијализација гит репозиториум
+5. git remote add origin https://github.com/kitanovskiviktor/SI_2024_lab1_225130 - поврзување со одалечениот репозиториум
+7. git add SILab1_1.java SILab1_2.java SILab1Main.java
+git commit -m "Add starter code"
+8. git push origin master - синхронизација на гранката master
+9. git branch bug1, git branch bug2 - додавање на нови гранки bug1, bug2
+10. git checkout bug1
+11. git add SILab1_1.java 
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2
+13. git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14. git checkout bug1
+15. git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16. git checkout bug2
+17. git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+18. git push origin master, git push origin bug1, git push origin bug2 - синхронизација на сите гранки
+19. git checkout master
+20. git merge bug1 - не се случија конфликти, на Fast-Forward стратегија
+21. git push origin master
+22. git checkout bug2
+23. git rebase master - се случија конфликти, каде што ги задржав тековните промените
+а не ги прифатив промените од другата гранка.
+git add SILab1Main.java
+git rebase --continue
+24. git checkout master
+25. git merge bug2 - не се јавија конфликти, преку Fast-Forward стратегија
+26. git push origin master
+git push origin bug1
+27. git push origin bug2 --force
+28. git log > logs.txt - копија на логовите во logs.txt датотека

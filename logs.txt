@@ -1,0 +1,35 @@
+commit 8fd8db47a3a423e792ebb3978a43f82a5ae85462
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:19:21 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit eeaadecc7c25f87570f438295dced22e24f37765
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:14:10 2024 +0200
+
+    Fix wrong condition
+
+commit efcaf5926fe50aa663e4a159a9f592c8ae2269f1
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:17:09 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit b89e2149d15d7ab6d416cf76275472c1d154ed74
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:12:23 2024 +0200
+
+    Fix wrong condition
+
+commit d8de4aec3a28de910e357f0288a0d79e52aeec70
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:03:36 2024 +0200
+
+    Add starter code
+
+commit 601e49ad0628b6b4d10aadec20352620f1ff6f7b
+Author: Viktor Kitanovski <viktor.kitanovski45@gmail.com>
+Date:   Sat Apr 13 23:01:12 2024 +0200
+
+    Initial commit
